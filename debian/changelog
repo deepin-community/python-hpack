@@ -1,5 +1,90 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-hpack (4.0.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Clean test/conftest.py since it’s broken anyway.
+    Unbreaks tests.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 29 Nov 2020 12:44:57 +0100
+
+python-hpack (4.0.0-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 3.0.0-2.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Andrej Shadura ]
+  * Maintain within the Python team (Closes: #947011).
+  * New upstream release.
+  * Update copyright years.
+
+ -- Andrej Shadura <andrewsh@debian.org>  Sun, 29 Nov 2020 09:54:20 +0100
+
+python-hpack (3.0.0-4) unstable; urgency=medium
+
+  [ Nicolas Dandrimont ]
+  * Remove hypothesis cache directory after running tests
+
+  [ Sébastien Delafond ]
+  * Set maintainer to Debian QA Group
+  * Remove python2 package
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 20 Dec 2019 17:47:13 +0100
+
+python-hpack (3.0.0-3) unstable; urgency=medium
+
+  * Switch to DEP 14
+  * Update Vcs-* to point to salsa.d.o
+  * Bump-up Standards-Version
+  * Use https in debian/watch
+  * Use https URL for copyright-format
+  * Change Homepage
+
+ -- Sebastien Delafond <seb@debian.org>  Thu, 05 Apr 2018 12:54:25 +0200
+
+python-hpack (3.0.0-2) unstable; urgency=medium
+
+  * Don't install Hypothesis example database into binary package (Closes:
+    #886523)
+
+ -- Sebastien Delafond <seb@debian.org>  Sun, 07 Jan 2018 10:45:59 +0100
+
+python-hpack (3.0.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.0.0
+
+ -- Sebastien Delafond <seb@debian.org>  Tue, 04 Jul 2017 14:48:59 +0200
+
+python-hpack (2.3.0-1) unstable; urgency=medium
+
+  * Imported Upstream version 2.3.0 (Closes: #833467, CVE-2016-6581)
+
+ -- Sebastien Delafond <seb@debian.org>  Sat, 06 Aug 2016 04:38:16 +0200
+
+python-hpack (2.2.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump-up Standards-Version
+
+ -- Sebastien Delafond <seb@debian.org>  Fri, 01 Jul 2016 11:11:10 +0200
+
+python-hpack (2.1.0-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 10 Feb 2016 14:25:43 +0100
+
+python-hpack (2.0.1-1) unstable; urgency=medium
+
+  * Correct Vcs-* urls
+  * New upstream version (Closes: #805690)
+
+ -- Sebastien Delafond <seb@debian.org>  Tue, 24 Nov 2015 16:00:37 +0100
+
+python-hpack (1.1.0-1) unstable; urgency=low
+
+  * New package (Closes: #789781); thanks to Sophie Brun <sophie@freexian.com>
+    for doing the entire packaging work.
+
+ -- Sebastien Delafond <seb@debian.org>  Wed, 29 Jul 2015 20:39:43 +0200
